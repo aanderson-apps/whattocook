@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE6F000222DCE2F100CF749E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6F000022DCE2F100CF749E /* Main.storyboard */; };
+		EE6F000422DCE2F200CF749E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6F000322DCE2F200CF749E /* Assets.xcassets */; };
+		EE6F000722DCE2F200CF749E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6F000522DCE2F200CF749E /* LaunchScreen.storyboard */; };
+		EE6F001222DCE2F200CF749E /* What_to_Cook_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6F001122DCE2F200CF749E /* What_to_Cook_Tests.swift */; };
+		EE6F001D22DCE2F200CF749E /* What_to_Cook_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6F001C22DCE2F200CF749E /* What_to_Cook_UITests.swift */; };
+		EE6FFFFD22DCE2F100CF749E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FFFFC22DCE2F100CF749E /* AppDelegate.swift */; };
+		EE6FFFFF22DCE2F100CF749E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FFFFE22DCE2F100CF749E /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE6F000E22DCE2F200CF749E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE6FFFF122DCE2F100CF749E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6FFFF822DCE2F100CF749E;
+			remoteInfo = "What to Cook?";
+		};
+		EE6F001922DCE2F200CF749E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE6FFFF122DCE2F100CF749E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6FFFF822DCE2F100CF749E;
+			remoteInfo = "What to Cook?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE6F000122DCE2F100CF749E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE6F000322DCE2F200CF749E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6F000622DCE2F200CF749E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE6F000822DCE2F200CF749E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6F000D22DCE2F200CF749E /* What to Cook?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What to Cook?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6F001122DCE2F200CF749E /* What_to_Cook_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_to_Cook_Tests.swift; sourceTree = "<group>"; };
+		EE6F001322DCE2F200CF749E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6F001822DCE2F200CF749E /* What to Cook?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What to Cook?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6F001C22DCE2F200CF749E /* What_to_Cook_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_to_Cook_UITests.swift; sourceTree = "<group>"; };
+		EE6F001E22DCE2F200CF749E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6FFFF922DCE2F100CF749E /* What to Cook?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What to Cook?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6FFFFC22DCE2F100CF749E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE6FFFFE22DCE2F100CF749E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE6F000A22DCE2F200CF749E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6F001522DCE2F200CF749E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6FFFF622DCE2F100CF749E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE6F001022DCE2F200CF749E /* What to Cook?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE6F001122DCE2F200CF749E /* What_to_Cook_Tests.swift */,
+				EE6F001322DCE2F200CF749E /* Info.plist */,
+			);
+			path = "What to Cook?Tests";
+			sourceTree = "<group>";
+		};
+		EE6F001B22DCE2F200CF749E /* What to Cook?UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE6F001C22DCE2F200CF749E /* What_to_Cook_UITests.swift */,
+				EE6F001E22DCE2F200CF749E /* Info.plist */,
+			);
+			path = "What to Cook?UITests";
+			sourceTree = "<group>";
+		};
+		EE6FFFF022DCE2F100CF749E = {
+			isa = PBXGroup;
+			children = (
+				EE6FFFFB22DCE2F100CF749E /* What to Cook? */,
+				EE6F001022DCE2F200CF749E /* What to Cook?Tests */,
+				EE6F001B22DCE2F200CF749E /* What to Cook?UITests */,
+				EE6FFFFA22DCE2F100CF749E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE6FFFFA22DCE2F100CF749E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FFFF922DCE2F100CF749E /* What to Cook?.app */,
+				EE6F000D22DCE2F200CF749E /* What to Cook?Tests.xctest */,
+				EE6F001822DCE2F200CF749E /* What to Cook?UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6FFFFB22DCE2F100CF749E /* What to Cook? */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FFFFC22DCE2F100CF749E /* AppDelegate.swift */,
+				EE6FFFFE22DCE2F100CF749E /* ViewController.swift */,
+				EE6F000022DCE2F100CF749E /* Main.storyboard */,
+				EE6F000322DCE2F200CF749E /* Assets.xcassets */,
+				EE6F000522DCE2F200CF749E /* LaunchScreen.storyboard */,
+				EE6F000822DCE2F200CF749E /* Info.plist */,
+			);
+			path = "What to Cook?";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE6F000C22DCE2F200CF749E /* What to Cook?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6F002422DCE2F200CF749E /* Build configuration list for PBXNativeTarget "What to Cook?Tests" */;
+			buildPhases = (
+				EE6F000922DCE2F200CF749E /* Sources */,
+				EE6F000A22DCE2F200CF749E /* Frameworks */,
+				EE6F000B22DCE2F200CF749E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6F000F22DCE2F200CF749E /* PBXTargetDependency */,
+			);
+			name = "What to Cook?Tests";
+			productName = "What to Cook?Tests";
+			productReference = EE6F000D22DCE2F200CF749E /* What to Cook?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE6F001722DCE2F200CF749E /* What to Cook?UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6F002722DCE2F200CF749E /* Build configuration list for PBXNativeTarget "What to Cook?UITests" */;
+			buildPhases = (
+				EE6F001422DCE2F200CF749E /* Sources */,
+				EE6F001522DCE2F200CF749E /* Frameworks */,
+				EE6F001622DCE2F200CF749E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6F001A22DCE2F200CF749E /* PBXTargetDependency */,
+			);
+			name = "What to Cook?UITests";
+			productName = "What to Cook?UITests";
+			productReference = EE6F001822DCE2F200CF749E /* What to Cook?UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EE6FFFF822DCE2F100CF749E /* What to Cook? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6F002122DCE2F200CF749E /* Build configuration list for PBXNativeTarget "What to Cook?" */;
+			buildPhases = (
+				EE6FFFF522DCE2F100CF749E /* Sources */,
+				EE6FFFF622DCE2F100CF749E /* Frameworks */,
+				EE6FFFF722DCE2F100CF749E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "What to Cook?";
+			productName = "What to Cook?";
+			productReference = EE6FFFF922DCE2F100CF749E /* What to Cook?.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE6FFFF122DCE2F100CF749E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Alison Anderson";
+				TargetAttributes = {
+					EE6F000C22DCE2F200CF749E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EE6FFFF822DCE2F100CF749E;
+					};
+					EE6F001722DCE2F200CF749E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EE6FFFF822DCE2F100CF749E;
+					};
+					EE6FFFF822DCE2F100CF749E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EE6FFFF422DCE2F100CF749E /* Build configuration list for PBXProject "What to Cook?" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE6FFFF022DCE2F100CF749E;
+			productRefGroup = EE6FFFFA22DCE2F100CF749E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6FFFF822DCE2F100CF749E /* What to Cook? */,
+				EE6F000C22DCE2F200CF749E /* What to Cook?Tests */,
+				EE6F001722DCE2F200CF749E /* What to Cook?UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE6F000B22DCE2F200CF749E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6F001622DCE2F200CF749E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6FFFF722DCE2F100CF749E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6F000722DCE2F200CF749E /* LaunchScreen.storyboard in Resources */,
+				EE6F000422DCE2F200CF749E /* Assets.xcassets in Resources */,
+				EE6F000222DCE2F100CF749E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE6F000922DCE2F200CF749E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6F001222DCE2F200CF749E /* What_to_Cook_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6F001422DCE2F200CF749E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6F001D22DCE2F200CF749E /* What_to_Cook_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6FFFF522DCE2F100CF749E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6FFFFF22DCE2F100CF749E /* ViewController.swift in Sources */,
+				EE6FFFFD22DCE2F100CF749E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE6F000F22DCE2F200CF749E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6FFFF822DCE2F100CF749E /* What to Cook? */;
+			targetProxy = EE6F000E22DCE2F200CF749E /* PBXContainerItemProxy */;
+		};
+		EE6F001A22DCE2F200CF749E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6FFFF822DCE2F100CF749E /* What to Cook? */;
+			targetProxy = EE6F001922DCE2F200CF749E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE6F000022DCE2F100CF749E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6F000122DCE2F100CF749E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE6F000522DCE2F200CF749E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6F000622DCE2F200CF749E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE6F001F22DCE2F200CF749E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE6F002022DCE2F200CF749E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE6F002222DCE2F200CF749E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWVVZ2A9UQ;
+				INFOPLIST_FILE = "What to Cook?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlisonAnderson.What-to-Cook-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE6F002322DCE2F200CF749E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWVVZ2A9UQ;
+				INFOPLIST_FILE = "What to Cook?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlisonAnderson.What-to-Cook-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE6F002522DCE2F200CF749E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWVVZ2A9UQ;
+				INFOPLIST_FILE = "What to Cook?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlisonAnderson.What-to-Cook-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What to Cook?.app/What to Cook?";
+			};
+			name = Debug;
+		};
+		EE6F002622DCE2F200CF749E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWVVZ2A9UQ;
+				INFOPLIST_FILE = "What to Cook?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlisonAnderson.What-to-Cook-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What to Cook?.app/What to Cook?";
+			};
+			name = Release;
+		};
+		EE6F002822DCE2F200CF749E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWVVZ2A9UQ;
+				INFOPLIST_FILE = "What to Cook?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlisonAnderson.What-to-Cook-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "What to Cook?";
+			};
+			name = Debug;
+		};
+		EE6F002922DCE2F200CF749E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWVVZ2A9UQ;
+				INFOPLIST_FILE = "What to Cook?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlisonAnderson.What-to-Cook-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "What to Cook?";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE6F002122DCE2F200CF749E /* Build configuration list for PBXNativeTarget "What to Cook?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6F002222DCE2F200CF749E /* Debug */,
+				EE6F002322DCE2F200CF749E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6F002422DCE2F200CF749E /* Build configuration list for PBXNativeTarget "What to Cook?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6F002522DCE2F200CF749E /* Debug */,
+				EE6F002622DCE2F200CF749E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6F002722DCE2F200CF749E /* Build configuration list for PBXNativeTarget "What to Cook?UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6F002822DCE2F200CF749E /* Debug */,
+				EE6F002922DCE2F200CF749E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6FFFF422DCE2F100CF749E /* Build configuration list for PBXProject "What to Cook?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6F001F22DCE2F200CF749E /* Debug */,
+				EE6F002022DCE2F200CF749E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE6FFFF122DCE2F100CF749E /* Project object */;
+}
